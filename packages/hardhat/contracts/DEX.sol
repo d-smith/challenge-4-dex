@@ -176,7 +176,7 @@ contract DEX {
         // Does the liquidity contribution of the withdrawer allow the requested 
         // withdrawal amount?
         require(amount> 0, "Request amount must be greater than 0");
-        require(liquidity[msg.sender] > amount, "Request amount greater than liquidity contribution indidate");
+        require(liquidity[msg.sender] > amount, "Request amount greater than liquidity contribution indidates");
 
         // Effects
 
@@ -200,7 +200,5 @@ contract DEX {
         require(sent, "Error sending eth");
         require(token.transfer(msg.sender, token_amount),
             "Error transferring tokens");
-
-
     }
 }

@@ -2,7 +2,7 @@
 
 ## 🔭 Overview
 
-This is submission for the BuidlGuidl Minimal Viable Exchange challenge. It is a clone of the submission
+This is my submission for the BuidlGuidl Minimal Viable Exchange challenge. It is a clone of the submission
 repo, with my additions based on the instructions that follow.
 
 Be sure to check out [Speedrun Ethereum](https://speedrunethereum.com/)
